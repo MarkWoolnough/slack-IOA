@@ -1,0 +1,24 @@
+{
+  "name": "slack-ioa",
+  "version": "1.0.1",
+  "description": "Slack integration with IBM Operations Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkWoolnough/slack-IOA.git"
+  },
+  "keywords": [
+    "IOA",
+    "Slack",
+    "Operations"
+  ],
+  "author": "Mark Woolnough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkWoolnough/slack-IOA/issues"
+  },
+  "homepage": "https://github.com/MarkWoolnough/slack-IOA#readme"
+}
