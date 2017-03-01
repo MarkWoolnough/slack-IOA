@@ -1,7 +1,9 @@
 # slack-IOA
 Repository for IBM Operations Analytics integration to Slack
 This repository contains materials to:
+
 a)  create the IOA app for Slack that contains the /ioa slash command
+
 b)  create the SendtoSlack right hand click tool for the Omnibus Active Event List (AEL) in IBM Dash
 
 Overview:
