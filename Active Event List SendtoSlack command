@@ -1,0 +1,7 @@
+   var xmlhttp = new XMLHttpRequest(),
+        webhook_url = '[your web hook address here]' ,
+        myJSONStr= '{"channel": "#general", "username": "pi-anomaly", "text": "Exported Anomaly from Predictive Insights. <[YOUR https fqdn for PI server here]:[PORT]/predictiveinsights/jsp/wlp/wlpAnomalyView.jsp?anomalyKey={$selected_rows.TASPIdentifier}>", "icon_emoji": ":timer_clock:"}' ;
+    xmlhttp.open('POST', webhook_url, false);
+    xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlhttp.send(myJSONStr);
+
