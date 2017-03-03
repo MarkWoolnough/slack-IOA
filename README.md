@@ -13,9 +13,9 @@ You will configure a Slack App.  You will then install a node instance on the IB
 
 Suggested Steps (not yet tested!):
 
-1.  Download the package as a zip file to your IBM Operations Analytics Log Analysis server
+1.  Download the package as a zip file to your IBM Operations Analytics Log Analysis server or go to step 2 to install directly on your server from npm.
 
-2.  Install node (https://nodejs.org/en/download/), npm (curl -L https://www.npmjs.com/install.sh | sh), git and optionally ngrok.
+2.  Install node (https://nodejs.org/en/download/), npm (curl -L https://www.npmjs.com/install.sh | sh), git and optionally ngrok.  If you want to install slack-ioa from npm, run npm install slack-ioa.  Install the dependancies npm install express, npm install request, npm install body-parser.  If you need to install ngrok to make your server visible to slack requests: npm install ngrok.
 
 3.  Edit the sample env file and add details of your own env.  Don't worry about the SLACK env variables for now:  you will populate these later, so set as temp values for now.  Export these variables to your shell.
 
