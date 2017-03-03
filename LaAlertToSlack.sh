@@ -1,0 +1,1 @@
+curl -X POST --data-urlencode 'payload={"channel":"#general","username":"la-alert","text":"Received an alert from IBM Operations Analytics Log Analysis.  Details <https://[LA SERVER FQDN]:[PORT]/Unity/CustomAppsUI?name=AlertsDashboard>","icon_emoji":":timer_clock:"}' [SLACK WEBHOOK URL HERE]
