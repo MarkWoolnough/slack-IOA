@@ -165,8 +165,6 @@ function parseQuery(q, res) {
 			var fields = line.split("\t");
 			if (fields[0].match(search)) {
 				console.log("found a match: " + fields[1]);
-//                        	res.send("Search Name: " + fields[0] + ":  https://marco.hursley.ibm.com:9987/Unity/SearchUI?" + fields[1]);
-//				urls = urls + "Search Name: " + fields[0] + ":  https://marco.hursley.ibm.com:9987/Unity/SearchUI?" + fields[1] + "\n";
 				urls = urls + "Search Name: " + fields[0] + ":  https://" + LA_HOST + ":" + LA_PORT + "/Unity/SearchUI?" + fields[1] + "\n";
 			}
 		});
